@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pod2-config
+data:
+  index.html: |
+    Hello, I am nginx-pod2
